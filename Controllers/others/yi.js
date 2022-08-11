@@ -19,14 +19,14 @@ module.exports = {
             othersApi.getUpManyOne([length,name])
         ])
             .then(req => {
-                ctx.body =  "当前访问量为: " + length + " 人/次"
+                ctx.body =  "当前访问量为: " + length + " 人/次";
             })
     },
 
     getYiYan: async (ctx, next) => {
-        ctx.body =(await axios(config.yi.yiyan)).body
+        ctx.body =(await axios(config.yi.yiyan)).body;
     },
     getIP: async (ctx, next) => {    
-        ctx.body =(await axios(config.yi.ip)).body
+        ctx.body =(await axios(config.yi.ip)).body;
     }
 }
