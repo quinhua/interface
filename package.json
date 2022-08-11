@@ -1,0 +1,48 @@
+{
+  "name": "node",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "address": "^1.2.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.11",
+    "debug": "^4.1.1",
+    "ip": "^1.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.3",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-passport": "^4.1.4",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^6.2.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "koa2-request": "^1.0.4",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.7",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "shortid": "^2.2.16",
+    "superagent": "^7.1.6",
+    "svg-captcha": "^1.4.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
